@@ -1,0 +1,84 @@
+/*
+Theme Name: iFadey Mobile
+Theme URI: http://ifadey.com/
+Description: Mobile Theme for iFadey.com
+Author: Fawad Hassan
+Version: 1.0
+Tags: web design, development, blog, ifadey
+*/@import url("css/jquery.mobile.css");
+
+#nav-below, #nav-above, .entry-meta, .entry-utility, .page-link {
+    background: #EFEFEF;
+    
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) inset;
+    
+    font-size: .8em;
+    padding: 4px;
+}
+
+.nav-previous {
+    float: left;
+}
+.nav-next {
+    float: right;
+}
+
+.page-link {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 6px 0;
+}
+
+.demo_source {
+    font-size: 1.5em;
+    text-align: center;
+}
+.demo_source a {
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.more-link {
+    font-size: 1.4em;
+    text-decoration: none;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .2);
+}
+.more-link:hover {
+    text-shadow: none;
+}
+
+#commentform label {
+    text-align: right;
+}
+
+.commentlist, .commentlist ul {
+    list-style: none;
+}
+.commentlist {
+    margin: 0;
+    padding: 0;
+}
+.commentlist > li {
+    border-bottom: 1px solid #ddd;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+.commentlist > li:first-child {
+    margin-top: 0;
+}
+.commentlist ul li {
+    border: none;
+    margin-top: 1em;
+}
+.avatar {
+    float: left;
+    margin: 2px 6px 0 0;
+}
+
+/*clearfix taken from Html5 Boilerplate http://html5boilerplate.com*/
+.clearfix:before, .clearfix:after {
+  content: "\0020"; display: block; height: 0; visibility: hidden;	
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
